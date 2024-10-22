@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{% static 'index.css' %}">
+  <link rel="stylesheet" href="{% static 'members.css' %}">
   <title>Tech | Área de membros</title>
 </head>
 <body>
@@ -14,6 +15,12 @@
   <main>
     <h1>Área para membros do Tech</h1>
     <p>Somente para usuários registrados e logados no tech</p>
+    
+    <div class="logout-btn">
+      <a href="http://localhost:8000/accounts/logout" class="logout-link">
+        Logout
+      </a>
+    </div>
   </main>
 </body>
 </html>
